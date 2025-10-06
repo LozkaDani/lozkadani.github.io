@@ -1,2 +1,2 @@
 # lozkadani.github.io
-my links
+Учусь делать такие сайты. еее
