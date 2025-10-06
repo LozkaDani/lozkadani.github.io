@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+header {
+  background-color: rgba(173, 140, 42, 0.4);
+  background-transparency: 70%;
+  width: 100%;
+  background-size: 1000px;
+  background-attachment: fixed;
+}
+
+#head h1 {
+  padding-left: 600px;
+  margin: 0px 0px;
+  font-size: 50px;
+  color: black; 
+}
+
+#info p {
+  padding-left: 300px;
+}
+
+#links {
+  padding-left: 500px;
+  font-size: 35px;
+  background-color: rgba(192, 192, 192, 0.5);
+  background-transparency: 70%;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0px 150px;
+}
+body {
+ background:
+url(https://i.pinimg.com/736x/95/59/0e/95590e915731483c2a18b7488c286462.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
+  text-decoration: underline;
+}
