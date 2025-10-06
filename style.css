@@ -29,29 +29,30 @@ header img {
   padding-left: 600px;
   margin: 0px 0px;
   font-size: 50px;
-  color: black;
+  color: white;
 }
 
 #info p {
   padding-left: 300px;
   font-family: "Hachi Maru Pop", cursive;
+  color: white;
+}
+
+body {
+  background-image: url('./videos/nightcity.gif');
+   background-size: cover;
+   background-attachment: fixed;
 }
 
 #links {
   padding-left: 500px;
   font-size: 35px;
-  background-color: rgba(192, 192, 192, 0.5);
-  background-transparency: 70%;
-  background-size: cover;
-  background-attachment: fixed;
   margin: 0px 150px;
   font-family: "Hachi Maru Pop", cursive;
 }
-body {
- background:
-url(https://i.pinimg.com/736x/95/59/0e/95590e915731483c2a18b7488c286462.jpg);
-   background-size: cover;
-   background-attachment: fixed;
+
+#links a {
+  color: white;
 }
 
 a {
