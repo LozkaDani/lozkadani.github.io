@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-header {
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+.hachi-maru-pop-regular {
+  font-family: "Hachi Maru Pop", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header p {
   background-color: rgba(173, 140, 42, 0.4);
   background-transparency: 70%;
   width: 100%;
@@ -7,15 +14,27 @@ header {
   background-attachment: fixed;
 }
 
+header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 1px 1px #b2b2b2;
+  display: block; /* Превращает изображение в блочный элемент */
+  margin-left: auto; /* Выравнивает по центру */
+  margin-right: auto; /* Выравнивает по центру */
+}
+
 #head h1 {
+  font-family: "Hachi Maru Pop", cursive;
   padding-left: 600px;
   margin: 0px 0px;
   font-size: 50px;
-  color: black; 
+  color: black;
 }
 
 #info p {
   padding-left: 300px;
+  font-family: "Hachi Maru Pop", cursive;
 }
 
 #links {
@@ -26,6 +45,7 @@ header {
   background-size: cover;
   background-attachment: fixed;
   margin: 0px 150px;
+  font-family: "Hachi Maru Pop", cursive;
 }
 body {
  background:
