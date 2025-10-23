@@ -6,13 +6,6 @@
   font-style: normal;
 }
 
-header p {
-  background-color: rgba(173, 140, 42, 0.4);
-  background-transparency: 70%;
-  width: 100%;
-  background-size: 1000px;
-  background-attachment: fixed;
-}
 
 header div {
     animation: fromTop .7s .2s backwards;
